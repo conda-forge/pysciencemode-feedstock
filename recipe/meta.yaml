@@ -1,5 +1,5 @@
 {% set name = "pysciencemode" %}
-{% set version = "1.1.4" %}
+{% set version = "1.1.5" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pysciencemode-{{ version }}.tar.gz
-  sha256: 91952b59df0ab6b7472c302fd0b5777e271958e57c48d00d063ca1769faa70e6
+  sha256: 06557e593cfc52d064e6a7a75a40921d1ca2c3e6a06f0a4275ee8102c5793964
 
 build:
   number: 0
